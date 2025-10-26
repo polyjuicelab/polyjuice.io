@@ -838,8 +838,8 @@ fn App() -> Html {
                                 <img src="/imgs/polyjuice.png" alt="Polyjuice" class="project-logo" />
                                 <div class="project-content">
                                     <div class="project-name">{ "Polyjuice" }</div>
-                                    <div class="project-desc">{ "Frontend project supporting x402" }</div>
-                                    <div class="project-detail">{ "A frontend project that supports x402 protocol and can mimic any Farcaster user through SnapRAG integration." }</div>
+                                    <div class="project-desc">{ "AI user simulation on Farcaster" }</div>
+                                    <div class="project-detail">{ "This application allows AI to simulate any user on Farcaster." }</div>
                                 </div>
                             </a>
                         </div>
