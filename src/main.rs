@@ -842,6 +842,14 @@ fn App() -> Html {
                                     <div class="project-detail">{ "This application allows AI to simulate any user on Farcaster." }</div>
                                 </div>
                             </a>
+                            <a href="https://github.com/RyanKung/polyportal" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <img src="/imgs/polyportal.png" alt="Polyportal" class="project-logo" />
+                                <div class="project-content">
+                                    <div class="project-name">{ "Polyportal" }</div>
+                                    <div class="project-desc">{ "Decentralized service platform" }</div>
+                                    <div class="project-detail">{ "A decentralized smart contract platform for service registration and discovery across blockchain networks." }</div>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
