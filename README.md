@@ -1,10 +1,10 @@
-# 0xbase.ai
+# polyjuice.io
 
-A crypto-punk driven decentralized organization focused on building AI tools on Basechain. We have extreme requirements and security obsessions, requiring all code to be written in Rust and fully open source.
+A frontend project that supports x402 protocol and can mimic any Farcaster user through SnapRAG integration.
 
 ## 🎨 About This Project
 
-This is a minimalist web application featuring Yves Klein's "Blue Monochrome" artwork. The site showcases our organization's projects and philosophy with a clean, modern design.
+This is a minimalist web application featuring Yves Klein's "Blue Monochrome" artwork. The site showcases our projects and philosophy with a clean, modern design.
 
 ### Features
 
@@ -25,8 +25,8 @@ This is a minimalist web application featuring Yves Klein's "Blue Monochrome" ar
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/0xBaseAI/0xbase.ai.git
-cd 0xbase.ai
+git clone https://github.com/your-org/polyjuice.io.git
+cd polyjuice.io
 ```
 
 2. Install Trunk:
@@ -54,12 +54,12 @@ make serve-dev
 ### Project Structure
 
 ```
-0xbase.ai/
+polyjuice.io/
 ├── src/
 │   └── main.rs          # Main Yew application
 ├── imgs/                # Static assets
 │   ├── blue.jpg         # Yves Klein artwork
-│   ├── logo.png         # 0xbase.ai logo
+│   ├── logo.png         # polyjuice.io logo
 │   ├── favicon.png      # Site favicon
 │   ├── rings.png        # Rings project logo
 │   └── castorix.png     # Castorix project logo
@@ -86,6 +86,27 @@ A decentralized peer-to-peer networking library built with Rust, featuring WebRT
 A comprehensive Rust implementation of the Farcaster protocol, providing secure and efficient tools for building decentralized social applications. Features include cryptographic signatures, message validation, and network synchronization.
 
 [GitHub Repository](https://github.com/0xBaseAI/castorix)
+
+### SnapRAG
+**Farcaster data synchronization system**
+
+A high-performance data synchronization system designed specifically for Farcaster protocol data, optimized for RAG applications.
+
+[GitHub Repository](https://github.com/0xBaseAI/snaprag)
+
+### x402
+**Payments protocol for the internet**
+
+A payments protocol for the internet built on HTTP, providing a standardized way to handle payments in web applications.
+
+[GitHub Repository](https://github.com/RyanKung/x402)
+
+### Polyjuice
+**Frontend project supporting x402**
+
+A frontend project that supports x402 protocol and can mimic any Farcaster user through SnapRAG integration.
+
+[GitHub Repository](https://github.com/0xBaseAI/polyjuice)
 
 ## 🎨 Design Philosophy
 
@@ -118,10 +139,10 @@ We welcome contributions from the community. Please ensure all code follows our 
 
 ## 📞 Contact
 
-- **Organization**: 0xbase.ai
-- **Focus**: Base, LLM, and Rust
-- **Philosophy**: Crypto-punk driven, decentralized, security-obsessed
+- **Organization**: polyjuice.io
+- **Focus**: Frontend supporting x402 protocol
+- **Philosophy**: Security-obsessed, open source
 
 ---
 
-*Built with ❤️ and Rust by the 0xbase.ai team*
+*Built with ❤️ and Rust by the polyjuice.io team*

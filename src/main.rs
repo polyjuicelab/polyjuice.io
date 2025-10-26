@@ -80,42 +80,35 @@ fn App() -> Html {
                 }
                 
                 .brand-0x {
-                    background-image: linear-gradient(45deg, 
-                        #cc0000, #cc6600, #cccc00, #00cc00, 
-                        #00cccc, #0066cc, #6600cc, #cc00cc);
-                    background-size: 400% 400%;
-                    background-clip: text;
+                    background: linear-gradient(135deg, #3b82f6, #8b5cf6);
                     -webkit-background-clip: text;
                     -webkit-text-fill-color: transparent;
+                    background-clip: text;
                     padding: 0.2rem 0 0.2rem 0.5rem;
                     font-weight: 600;
                     letter-spacing: 0.1em;
                     font-size: 1.1em;
-                    animation: rainbow 3s ease-in-out infinite;
-                }
-                
-                @keyframes rainbow {
-                    0%, 100% { background-position: 0% 50%; }
-                    50% { background-position: 100% 50%; }
                 }
                 
                 .brand-base {
-                    background-color: #0066cc;
-                    color: white;
+                    background: linear-gradient(135deg, #8b5cf6, #3b82f6);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-clip: text;
                     padding: 0.2rem 0;
                     font-weight: 600;
                     letter-spacing: 0.1em;
-                    text-shadow: 1px 1px 0px #000;
                     font-size: 1.1em;
                 }
                 
                 .brand-ai {
-                    background-color: #8b5cf6;
-                    color: white;
+                    background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-clip: text;
                     padding: 0.2rem 0.5rem 0.2rem 0;
                     font-weight: 600;
                     letter-spacing: 0.1em;
-                    text-shadow: 1px 1px 0px #000;
                     font-size: 1.1em;
                 }
                 
@@ -765,9 +758,7 @@ fn App() -> Html {
             <div class="container">
                 <div class="brand-header">
                     <div class="brand-text">
-                        <span class="brand-0x">{ "0x" }</span>
-                        <span class="brand-base">{ "BASE" }</span>
-                        <span class="brand-ai">{ ".AI" }</span>
+                        <span class="brand-0x">{ "Polyjuice" }</span>
                     </div>
                 </div>
                 <div class="main-content">
@@ -798,11 +789,11 @@ fn App() -> Html {
                     <div class="intro-content">
                             <img 
                                 src="/imgs/logo.png" 
-                                alt="0xbase.ai Logo" 
+                                alt="polyjuice.io Logo" 
                             class="intro-logo"
                             />
                         <p class="intro-description">
-                            { "Building AI tools on Basechain with Rust and open source obsession." }
+                            { "We combine AI's vibe and irrationality with Crypto's rigor, precision, and intelligence." }
                             </p>
                     </div>
                         </div>
@@ -921,7 +912,7 @@ fn App() -> Html {
                 <footer id="footer" class="footer">
                     <div class="footer-content">
                         <p class="footer-text">
-                            { "© 2025 0xbase.ai" }
+                            { "© 2025 polyjuice.io" }
                         </p>
                     </div>
                 </footer>
