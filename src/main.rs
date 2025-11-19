@@ -802,15 +802,7 @@ fn App() -> Html {
                     <div class="projects-content">
                         <h3 class="projects-title">{ "Projects" }</h3>
                         <div class="footer-projects">
-                            <a href="https://github.com/0xBaseAI/rings" target="_blank" rel="noopener noreferrer" class="project-link">
-                                <img src="/imgs/rings.png" alt="Rings" class="project-logo" />
-                                <div class="project-content">
-                                    <div class="project-name">{ "Rings" }</div>
-                                    <div class="project-desc">{ "P2P network with WebRTC & WASM" }</div>
-                                    <div class="project-detail">{ "A decentralized peer-to-peer networking library built with Rust, featuring WebRTC for real-time communication and WebAssembly for cross-platform compatibility." }</div>
-                                </div>
-                            </a>
-                            <a href="https://github.com/0xBaseAI/castorix" target="_blank" rel="noopener noreferrer" class="project-link">
+                            <a href="https://github.com/polyjuicelab/castorix" target="_blank" rel="noopener noreferrer" class="project-link">
                                 <img src="/imgs/castorix.png" alt="Castorix" class="project-logo" />
                                 <div class="project-content">
                                     <div class="project-name">{ "Castorix" }</div>
@@ -818,7 +810,7 @@ fn App() -> Html {
                                     <div class="project-detail">{ "A comprehensive Rust implementation of the Farcaster protocol, providing secure and efficient tools for building decentralized social applications." }</div>
                                 </div>
                             </a>
-                            <a href="https://github.com/0xBaseAI/snaprag" target="_blank" rel="noopener noreferrer" class="project-link">
+                            <a href="https://github.com/polyjuicelab/snaprag" target="_blank" rel="noopener noreferrer" class="project-link">
                                 <img src="/imgs/snapRAG.png" alt="SnapRAG" class="project-logo" />
                                 <div class="project-content">
                                     <div class="project-name">{ "SnapRAG" }</div>
@@ -826,7 +818,7 @@ fn App() -> Html {
                                     <div class="project-detail">{ "A high-performance data synchronization system designed specifically for Farcaster protocol data, optimized for RAG applications." }</div>
                                 </div>
                             </a>
-                            <a href="https://github.com/RyanKung/x402/tree/feature/rust-implementation/rust" target="_blank" rel="noopener noreferrer" class="project-link">
+                            <a href="https://github.com/polyjuicelab/rust-x402" target="_blank" rel="noopener noreferrer" class="project-link">
                                 <img src="/imgs/x402.png" alt="x402" class="project-logo" />
                                 <div class="project-content">
                                     <div class="project-name">{ "x402" }</div>
@@ -842,12 +834,36 @@ fn App() -> Html {
                                     <div class="project-detail">{ "This application allows AI to simulate any user on Farcaster." }</div>
                                 </div>
                             </a>
-                            <a href="https://github.com/RyanKung/polyportal" target="_blank" rel="noopener noreferrer" class="project-link">
+                            <a href="https://github.com/polyjuicelab/polyportal" target="_blank" rel="noopener noreferrer" class="project-link">
                                 <img src="/imgs/polyportal.png" alt="Polyportal" class="project-logo" />
                                 <div class="project-content">
                                     <div class="project-name">{ "Polyportal" }</div>
                                     <div class="project-desc">{ "Decentralized service platform" }</div>
                                     <div class="project-detail">{ "A decentralized smart contract platform for service registration and discovery across blockchain networks." }</div>
+                                </div>
+                            </a>
+                            <a href="https://github.com/polyjuicelab/DeTLS" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <img src="/imgs/detls.png" alt="DeTLS" class="project-logo" />
+                                <div class="project-content">
+                                    <div class="project-name">{ "DeTLS" }</div>
+                                    <div class="project-desc">{ "Ed25519-based TLS certificates" }</div>
+                                    <div class="project-detail">{ "A command-line tool and Rust library for managing Ed25519-based X.509 certificates for mutual TLS (mTLS) authentication using Solana-compatible keys." }</div>
+                                </div>
+                            </a>
+                            <a href="https://github.com/polyjuicelab/ditto" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <img src="/imgs/ditto.png" alt="ditto" class="project-logo" />
+                                <div class="project-content">
+                                    <div class="project-name">{ "ditto" }</div>
+                                    <div class="project-desc">{ "Generative art toolkit" }</div>
+                                    <div class="project-detail">{ "A nannou-powered generative art toolkit that transforms input images into stylized artistic outputs." }</div>
+                                </div>
+                            </a>
+                            <a href="https://github.com/polyjuicelab/Nginx-X402" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <img src="/imgs/nginx-x402.png" alt="Nginx-X402" class="project-logo" />
+                                <div class="project-content">
+                                    <div class="project-name">{ "Nginx-X402" }</div>
+                                    <div class="project-desc">{ "Nginx module for x402 protocol" }</div>
+                                    <div class="project-detail">{ "A pure Rust implementation of an Nginx module that supports the x402 HTTP micropayment protocol." }</div>
                                 </div>
                             </a>
                         </div>
